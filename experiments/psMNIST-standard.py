@@ -8,7 +8,7 @@ import sys
 os.environ['KMP_DUPLICATE_LIB_OK']='True'
 
 WORK_PATH = os.path.join(os.path.abspath(os.path.dirname(__file__)), '..')
-nru_path = os.path.join(WORK_PATH, 'nru', 'nru_project')
+nru_path = os.path.join(WORK_PATH, 'nru_project')
 
 sys.path.append(nru_path)
 
